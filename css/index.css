@@ -1,0 +1,150 @@
+body{
+    background-color: #f3f3f3 !important;
+    font-family: 'Comic Neue', cursive !important;
+}
+
+h1, h4{
+    font-family: 'Comic Neue', cursive;
+}
+
+h1{
+    font-size: 4.5em !important;
+}
+
+h2, h5{
+    display: contents;
+}
+
+.title{
+    text-align: center;
+}
+
+.ingredients{
+    margin-top: 30px;
+    line-height: 15px;
+}
+
+.welcomeScreen{
+    text-align: center;
+    margin-top: 15%;
+    animation-name: firstShow;
+    animation-duration: 2s;
+}
+
+.randomizeBtn{
+    width: 150px;
+    font-size: 20px;
+}
+
+.hiding{
+    animation-name: hiding;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.showing{
+    animation-name: showing;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.howTo{
+    margin-top: 15px;
+}
+
+.showing2{
+    animation-name: firstShow2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@media(max-width: 990px){
+    .set2{
+        display: block !important;
+    }
+}
+
+.imageFood{
+    width: 350px;
+    height: 350px;
+}
+
+.badge-info{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.details{
+    margin-top: 30px;
+    text-align: center;
+}
+
+@keyframes hiding {
+    0%   {margin-top: 15%; opacity: 1;}
+    100% {margin-top: 13%; opacity: 0; display: none !important;}
+  }
+
+@keyframes showing {
+0%   {opacity: 0;}
+100% {opacity: 1; display: flow-root !important;}
+}
+
+@keyframes firstShow {
+    0%   {margin-top: 13%; opacity: 0;}
+    100% {margin-top: 15%; opacity: 1;display: block !important;}
+  }
+
+@keyframes firstShow2 {
+0%   {margin-top: 0%; opacity: 0;}
+100% {margin-top: 3%; opacity: 1;}
+}
+
+.foodScreen{
+    display: none;
+}
+
+.searching{
+    opacity: 0;
+    display: flow-root;
+    text-align: center;
+    font-size: 25px;
+    padding: 25px;
+}
+
+
+/* LOADER ANIMATOR */
+
+@keyframes ldio-e4kiwjwas8c {
+  0% { transform: translate(-50%,-50%) rotate(0deg); }
+  100% { transform: translate(-50%,-50%) rotate(360deg); }
+}
+.ldio-e4kiwjwas8c div {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border: 6px solid #5ed7ee;
+  border-top-color: transparent;
+  border-radius: 50%;
+}
+.ldio-e4kiwjwas8c div {
+  animation: ldio-e4kiwjwas8c 0.7575757575757576s linear infinite;
+  top: 50px;
+  left: 50px
+}
+.loadingio-spinner-rolling-hhne6gemzh8 {
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  overflow: hidden;
+  background: #f1f2f3;
+}
+.ldio-e4kiwjwas8c {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(0.44);
+  backface-visibility: hidden;
+  transform-origin: 0 0; 
+}
+.ldio-e4kiwjwas8c div { box-sizing: content-box; }
